@@ -90,7 +90,7 @@ class Main extends React.Component{
 const SearchResultTemplate = (props) => {
   return(
     <div id="search-result-wrapper-sp">
-    <a id="search-link" href={`http://localhost:3000/book/${props.id}`}  onMouseDown={() => props.checkDB(props.id, props.title, props.authors, props.pageCount, "undefined", props.publishedDate, props.summary)}>
+    <a id="search-link" href={`https://tahmdev.github.io/book-album/book/${props.id}`}  onMouseDown={() => props.checkDB(props.id, props.title, props.authors, props.pageCount, "undefined", props.publishedDate, props.summary)}>
     <div id="search-result">
       <img id="sp-img" src={props.image} />
       <div id="volume-info-wrapper-sp">

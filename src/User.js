@@ -381,7 +381,7 @@ class Main extends React.Component{
 const BookTemplate = (props) => {
   return (
     <div className="book-template-wrapper">
-        <a href={`http://localhost:3000/book/${props.isbn}`}>
+        <a href={`https://tahmdev.github.io/book-album/book/${props.isbn}`}>
           <img id={props.id} src={props.imageUrl} alt={props.title} onMouseEnter={props.hoverFunc} onMouseLeave={props.unHoverFunc}/>
         </a>
     </div>
@@ -631,7 +631,7 @@ const NoteTemplate = (props) =>{
             <h1 id="title">{props.title}</h1>
             {props.authorID === props.loggedUser && <button onClick={handleClick}  id="edit-note-btn">EDIT</button>}
           </div>
-          <a href={`http://localhost:3000/book/${props.isbn}`}  id="author-wrapper">
+          <a href={`https://tahmdev.github.io/book-album/book/${props.isbn}`}  id="author-wrapper">
             <span id="note-author">{props.authorName}</span>
             <img src={props.authorPicture}></img>
           </a>
@@ -663,7 +663,7 @@ const NoteTemplate = (props) =>{
           <h1 id="title">Quote</h1>
           {props.authorID === props.loggedUser && <button onClick={handleClick} id="edit-note-btn">EDIT</button>}
           </div>
-          <a href={`http://localhost:3000/user/${props.isbn}`} id="author-wrapper">
+          <a href={`https://tahmdev.github.io/book-album/user/${props.isbn}`} id="author-wrapper">
             <span id="note-author">{props.authorName}</span>
             <img src={props.authorPicture}></img>
           </a>

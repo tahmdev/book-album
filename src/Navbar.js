@@ -121,11 +121,11 @@ class Navbar extends React.Component{
     return(
       <div>
           <nav id="navbar">
-            {this.state.loggedInUserData && <a href={`http://localhost:3000/user/${this.state.loggedInUser}`}>{this.state.loggedInUserData[0].name}</a>}
+            {this.state.loggedInUserData && <a href={`https://tahmdev.github.io/book-album/user/${this.state.loggedInUser}`}>{this.state.loggedInUserData[0].name}</a>}
             {!this.state.loggedInUserData && <p></p>}
             <div id="search-wrapper">
               <input type="text" id="search-bar" autoComplete="off" placeholder='Search...' onChange={this.handleChange} onKeyDown={this.handleEnter}/>
-              <a id="search-link" href={"http://localhost:3000/search/"+ this.state.curretnSearchInput}>
+              <a id="search-link" href={"https://tahmdev.github.io/book-album/search/"+ this.state.curretnSearchInput}>
                 <button id="search-btn" >
                    <i className="fa fa-search" /> 
                 </button>
@@ -168,7 +168,7 @@ class Navbar extends React.Component{
 const SearchResultTemplate = (props) => {
   return(
     <div id="search-result-wrapper">
-    <a id="search-link" href={`http://localhost:3000/book/${props.id}`}  onMouseDown={() => props.checkDB(props.id, props.title, props.authors, props.pageCount, "undefined", props.publishedDate, props.summary)}>
+    <a id="search-link" href={`https://tahmdev.github.io/book-album/book/${props.id}`}  onMouseDown={() => props.checkDB(props.id, props.title, props.authors, props.pageCount, "undefined", props.publishedDate, props.summary)}>
     <div id="search-result">
       <img src={props.image} />
       <div id="volume-info-wrapper">

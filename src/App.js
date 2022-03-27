@@ -16,9 +16,9 @@ function App() {
     <Auth0Provider
       domain="dev-81hux8g1.us.auth0.com"
       clientId="g4GjOli6xfVHKUxbyANlt2GuuJyOSKFh"
-      redirectUri={window.location.origin}
+      redirectUri={"https://tahmdev.github.io/book-album/"}
       >
-    <Router>
+    <Router basename='/book-album'>
       <div className="App">
         <AuthWrapper />
         
