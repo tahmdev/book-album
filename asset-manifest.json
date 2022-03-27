@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/book-album/static/css/main.b51ab5cb.css",
-    "main.js": "/book-album/static/js/main.a194bb26.js",
+    "main.js": "/book-album/static/js/main.def8cccf.js",
     "static/js/787.fb67f53c.chunk.js": "/book-album/static/js/787.fb67f53c.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/book-album/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/book-album/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -10,11 +10,11 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/book-album/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/book-album/index.html",
     "main.b51ab5cb.css.map": "/book-album/static/css/main.b51ab5cb.css.map",
-    "main.a194bb26.js.map": "/book-album/static/js/main.a194bb26.js.map",
+    "main.def8cccf.js.map": "/book-album/static/js/main.def8cccf.js.map",
     "787.fb67f53c.chunk.js.map": "/book-album/static/js/787.fb67f53c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b51ab5cb.css",
-    "static/js/main.a194bb26.js"
+    "static/js/main.def8cccf.js"
   ]
 }
